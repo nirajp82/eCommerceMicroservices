@@ -1,4 +1,4 @@
-# eCommerceMicroservices
+# eCommerceMicroservices (Reference: https://github.com/aspnetrun/run-aspnetcore-microservices)
 
 ### Docker Command (Reference: https://blog.baudson.de/blog/stop-and-remove-all-docker-containers-and-images)
 - List all containers (only IDs) > $ docker ps -aq
