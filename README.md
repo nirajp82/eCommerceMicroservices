@@ -11,7 +11,8 @@
 - Start a mongo server instance: >  $docker run -d -p 27017:27017 --name [some-mongo-name] mongo
    -d: detach mode
    -p: Port. Format: Local Machine Port :Mongo Image Port 
-- Container shell access: > $ docker exec -it [some-mongo-name] bash (Following commands runs in bash)
+- Container shell access: > $ docker exec -it [some-mongo-name] bash
+   - #### mongo shell Command Helpers
    - Show list of All Databases : > show databases
    - Show list of all collection > show collections
    - Create Database: > use [databasename] -- To create/swith to db on mongo. For ex: use CatalogDB - this will create new database CalalogDB if does not exists else it will -use CatalogDB
