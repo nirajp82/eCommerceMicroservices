@@ -15,3 +15,4 @@
    - Show a List of All Databases inside bash: > show dbs
    - Create Database: > use [databasename] -- To create/swith to db on mongo. For ex: use CatalogDB - this will create new database CalalogDB if does not exists else it will -use CatalogDB
    - for create collection > db.createCollection('[Collection_Name]') for ex: following command will create db.createCollection('Products') Product collection 
+   - Insert record in collection > db.Products.insertMany([{ 'Name':'Asus Laptop','Category':'Computers', 'Summary':'Summary', 'Description':'Description', 'ImageFile':'ImageFile', 'Price':54.93 }, { 'Name':'HP Laptop','Category':'Computers', 'Summary':'Summary', 'Description':'Description', 'ImageFile':'ImageFile', 'Price':88.93 } ])
