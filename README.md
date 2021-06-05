@@ -12,3 +12,6 @@
    -d: detach mode
    -p: Port. Format: Local Machine Port :Mongo Image Port 
 - Container shell access: > $ docker exec -it [some-mongo-name] bash
+   Show a List of All Databases inside bash: > show dbs
+   Create Database: > use [databasename] -- To create/swith to db on mongo. For ex: use CatalogDB - this will create new database CalalogDB if does not exists else it will use CatalogDB
+   for create collection > db.createCollection('[Collection_Name]') for ex: following command will create db.createCollection('Products') Product collection 
